@@ -16,6 +16,13 @@ class AppTextStyle {
     );
   }
 
+  static TextStyle semiBold28(BuildContext context) {
+    return TextStyle(
+      fontSize: getResponsiveFontSize(context, baseFontSize: 28),
+      fontWeight: FontWeight.w600,
+    );
+  }
+
   static TextStyle semiBold12(BuildContext context) {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, baseFontSize: 12),

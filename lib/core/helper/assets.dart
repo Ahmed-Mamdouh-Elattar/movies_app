@@ -7,8 +7,8 @@ class Assets {
   static const String iconsBox = "assets/icons/box.svg";
 
   /// Assets for iconsPopcorn
-  /// assets/icons/popcorn.svg
-  static const String iconsPopcorn = "assets/icons/popcorn.svg";
+  /// assets/icons/popcorn.png
+  static const String iconsPopcorn = "assets/icons/popcorn.png";
 
   /// Assets for iconsSearch
   /// assets/icons/search.svg
