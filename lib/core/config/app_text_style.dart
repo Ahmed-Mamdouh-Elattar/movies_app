@@ -80,7 +80,7 @@ double getResponsiveFontSize(
 double getScaleFactor(BuildContext context) {
   double width = MediaQuery.sizeOf(context).width;
   if (width < DeviceSize.tablet) {
-    return width / 550;
+    return width / 350;
   } else if (width < DeviceSize.desktob) {
     return width / 900;
   } else {

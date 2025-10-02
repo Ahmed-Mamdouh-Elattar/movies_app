@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:movies_app/core/config/app_color.dart';
+import 'package:movies_app/core/config/app_text_style.dart';
 
 class AppTheme {
-  static ThemeData appTheme() {
+  static ThemeData appTheme(BuildContext context) {
     return ThemeData(
       scaffoldBackgroundColor: AppColor.primary,
-      appBarTheme: const AppBarTheme(backgroundColor: AppColor.primary),
+      appBarTheme: AppBarTheme(
+        backgroundColor: AppColor.primary,
+        centerTitle: true,
+        titleTextStyle: AppTextStyle.semiBold16(context),
+        iconTheme: const IconThemeData(color: Colors.white),
+      ),
     );
   }
 }
